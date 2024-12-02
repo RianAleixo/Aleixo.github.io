@@ -1,0 +1,86 @@
+@font-face{
+	font-family: redDead;
+	src: url(chinese_rocks_rg.ttf);
+}
+@font-face{
+	font-family: subTitulo;
+	src: url(BroncoPersonalUse.ttf);
+	font-weight: normal;
+}
+*{
+	margin: 0;
+}
+html, body{
+	height: 100%;
+}
+.topo{
+	background-color: #163700;
+	text-align: center;
+	width: 100%;
+	height: auto;
+	font-family: reddead;
+}
+.topo a{
+	text-decoration: none;
+	color: #b5e495;
+	font-size: 20px;
+	padding: 1/7;
+	margin: 3px;
+}
+.topo h1{
+	color: #B5E495;
+	font-size: 70px;
+}
+.fundo{
+	width:100%;
+
+}
+body{
+	background-color: #b5e495;
+}
+.secao{
+	padding: 20px 0 20px 5%;
+	width: 75%;
+	font-size: 20px;
+	color: #FFF;
+}
+.secao h2{
+	font-size: 55px;
+	font-family: redDead;
+	color: #ce0000;
+}
+.secao h3{
+	font-family: subTitulo;
+	font-size: 28px;
+}
+.secao a{
+	text-decoration: none;
+	color: #FFF;
+	text-decoration: underline;
+}
+.personagens{
+	display: flex;
+	overflow-x: scroll;
+	margin: 0 auto 20px auto;
+}
+.personagens img{
+	width: 1/6;
+	height: 450px;
+	padding: 25px;
+	background-color: #163700;
+}
+.rodape{
+	font-size: 20px;
+	text-align: center;
+	background-color: #163700;
+	text-align: center;
+	justify-content: center;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	height: 60px;
+}
+.rodape p{
+	color: #FFF;
+	padding: 20px;
+}
